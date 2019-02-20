@@ -1,0 +1,63 @@
+div.login {
+  // background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  div.form {
+    width: 350px;
+    height: 70%;
+    padding: 12px;
+
+    img {
+      height: 100%;
+    }
+    div.row-title {
+      width: 100%;
+      height: auto;
+      margin-bottom: 12px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 300;
+    }
+    div.row {
+      width: 100%;
+      height: auto;
+      // margin-bottom: 12px;
+
+      label.labelInput {
+        font-size: 13px;
+        font-weight: 100;
+        color: #43425D;
+      }
+      .ant-input {
+        box-shadow: 3px 3px 6px rgba(127,133,192,.15);
+
+        &:focus {
+          border-color: #66afe9;
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+        }
+        &:hover {
+          border-color: #7c86de;
+        }
+      }
+      .ant-checkbox-wrapper {
+        font-size: 13px;
+        font-weight: 100;
+      }
+      div.link {
+        font-size: 13px;
+        font-weight: 100;
+        color: #7C86DE;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
