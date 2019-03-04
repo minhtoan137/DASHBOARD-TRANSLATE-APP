@@ -30,7 +30,7 @@ const WrapMutation = ({ mutation, name, Component }) => {
   return (props) => (
     <Mutation mutation={mutation}>
       {(mutation) => {
-        let wrapProp = {...props}
+        let wrapProp = { ...props }
         wrapProp[name] = mutation
         return (
           <Component

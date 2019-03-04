@@ -1,0 +1,16 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
+    "editor.tabCompletion": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "beautify.onSave": true,
+    "beautify.JSfiles": [
+        "js",
+        "json",
+        "jsbeautifyrc",
+        "jshintrc",
+        "ts"
+    ] 
+}
